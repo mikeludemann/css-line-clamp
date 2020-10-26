@@ -1,0 +1,22 @@
+body {
+	align-items: center;
+	background: #ddd;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	line-height: 1.5;
+}
+
+.box {
+	background-color: #fff;
+	box-shadow: 2px 2px 10px #22cc22;
+	padding: 2em;
+	width: 200px;
+}
+
+.box p {
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* Number - Integer */
+	-webkit-box-orient: vertical; 
+	overflow: hidden;
+}
